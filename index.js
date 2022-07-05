@@ -1,0 +1,20 @@
+$(document).ready(function(){
+    $("#evaluate").click(function(){
+        alert($("p").html());
+    })
+})
+$(document).ready(function(){
+    $("#text").click(function(){
+        alert($("p").text());
+    })
+})
+$(document).ready(function(){
+    $("#val").click(function(){
+        alert($("#input").val());
+    })
+})
+$(document).ready(function(){
+    $("#att").click(function(){
+        alert($("#link").attr("href"));
+    })
+})

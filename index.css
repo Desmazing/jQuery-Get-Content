@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(235, 254, 254);
+}
+h1{
+    text-align: center;
+    margin: 40px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+    gap: 20px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+}
+.get{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lime;
+    padding: 20px;
+    border-radius: 15px;
+    gap: 20px;
+    font-size: 20px;
+    box-shadow: 0 5px 5px 0 rgb(163, 241, 163), inset 0 5px 5px 0  rgb(60, 57, 57);
+}
+.get input{
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(152, 213, 236);
+    border: transparent;
+}
+button:hover{
+    cursor: pointer;
+    filter: brightness(1.1);
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Get Content</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Content with jQuery</h1>
+    <div class="container">
+        <div class="get">
+            <h3>Get Content and Attributes</h3>
+            <p>Using html(), text() and val(), we can get <b>respective</b> content</p>
+            <p>The attributes can also be accessed through attr()</p>
+            <input type="text" value="" id="input" placeholder="Type something here">
+            <a href="amazing.com" id="link">This link leads somewhere</a>
+            <div style="display: flex; flex-direction: row; gap: 10px;">
+                <button type="button" id="evaluate"> Click to evaluate html()</button>
+                <button type="button" id="text"> Click to evaluate text()</button>
+            </div>
+            <div style="display: flex; flex-direction: row; gap: 10px;">
+                <button type="button" id="val"> Click to evaluate val()</button>
+                <button type="button" id="att">Click to evaluate attr()</button>
+            </div>
+        </div>
+        <div class="set">
+
+        </div>
+        <div class="add">
+
+        </div>
+        <div class="remove">
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
